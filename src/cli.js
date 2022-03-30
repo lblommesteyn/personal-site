@@ -145,6 +145,7 @@ const errors = {
     pages.push($.get('pages/root.html'));
     pages.push($.get('pages/skills.html'));
     pages.push($.get('pages/projects.html'));
+    pages.push($.get('pages/next.html'));
     $.when
       .apply($, pages)
       .done(
@@ -157,7 +158,8 @@ const errors = {
           resumeData,
           rootData,
           skillsData,
-          talksData,
+          projectsData,
+          nextData,
         ) => {
           systemData['about'] = aboutData[0];
           systemData['contact'] = contactData[0];
@@ -167,7 +169,8 @@ const errors = {
           systemData['resume'] = resumeData[0];
           systemData['root'] = rootData[0];
           systemData['skills'] = skillsData[0];
-          systemData['projects'] = talksData[0];
+          systemData['projects'] = projectsData[0];
+          systemData['next'] = nextData[0];
         },
       );
   
