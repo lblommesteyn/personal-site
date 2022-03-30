@@ -9,7 +9,7 @@ const errors = {
   };
   
   const struct = {
-    root: ['about', 'resume', 'contact', 'projects'],
+    root: ['about', 'resume', 'contact', 'projects', 'next'],
     skills: ['proficient', 'familiar'],
   };
   
