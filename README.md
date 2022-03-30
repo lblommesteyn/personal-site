@@ -1,2 +1,0 @@
-# LukeBlommesteyn
-personal site!
