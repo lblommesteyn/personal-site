@@ -1,6 +1,6 @@
-# personal-site
+# personal-site v2
 This is my personal site!
 
-This project was mostly adapted from an old ssh style game I was making after grade 12 in summer 2021! Hoping this is a better use of my code.
-
+v1 March 2022
+v2 June 2022
 Learn more about me and let me know what you think!
